@@ -1,0 +1,158 @@
+	/*body{
+	background-color:rgb(255, 0, 255, 1.0);
+}*/
+
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family: Rubik;
+	src: url(../fonts/Rubik-VariableFont_wght.ttf);
+}
+.conteiner{
+	width: 1180px;
+	height: 100vh;
+	background-color:white;
+	margin:0 auto;
+}
+.header{
+	width: 1180px;
+	height: 40px;
+	
+	margin-top: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerlogo{
+	display: flex;
+	align-items: center;
+}
+.logo{
+	margin-right: 11.88px;
+
+}
+.header_logo-p{
+	color: var(--Gray-1, #333);
+	src: url(..fonts/Rubik-VariableFont_wght.ttf);
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.header_search{
+	width: 320px;
+	height: 25px;
+	border: none;
+	border-bottom: 1px #333 solid;
+	outline: none ;
+	color: var(--Gray-1, #333);
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 32px;
+}
+.header_search:focus{
+	outline: none ;
+	color: var(--Gray-1, #333);
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+	}
+.header_search::placeholder{
+	color: var(--Gray-3, #828282);
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.header_search-p{
+	background: none;
+	border: none;
+	color: var(--green, #E5261E);
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.login{
+	width: 113px;
+	height: 38px;
+	border-radius: 4px;
+background: var(--green, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #E5261E);
+background-color: #E5261E;
+color: #FFF;
+text-align: center;
+font-family: Rubik;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+}
+.login:hover{
+	background-color: #CC221B;
+}
+.films_TV{
+	margin-top: 44px;
+	display: flex;
+	justify-content: center;
+}
+.films{
+	color: var(--green, #E5261E);
+text-align: right;
+font-family: Rubik;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border-bottom: 2px #E5261E  solid;
+margin-right: 23px;
+}
+.TV{
+	color: var(--Gray-1, #333);
+text-align: right;
+font-family: Rubik;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.new{
+	display: flex;
+	justify-content: normal;
+	margin-top:32px ;
+}
+.new-p{
+	color: var(--Gray-1, #333);
+text-align: right;
+font-family: Rubik;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.new_films{
+display: flex;
+width: 1180px;
+margin-right: 20px;
+
+}
+.cat_cont{
+
+}
+.cat{
+	width: 740px;
+height: 451px;
+flex-shrink: 0;
+margin-right: 20px;
+
+}

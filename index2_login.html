@@ -17,16 +17,16 @@
                     <input type="text" placeholder="Поиск..." class="search">
                     <input type="button" value="Найти" class="search_p">
                 </form>
-                <form>
                     <div class="unlogin_cont">
                         <p class="unlogin_p">Арсений У.</p>
-                        <input type= "button" value="Выйти" class="unlogin" onclick="document.location='file:index2.html'">
+                        <form action="./index2.html">
+                            <button class="unlogin">Выйти</button>
+                        </form>
                     </div>
-                </form>
         </header>
             <div class="films_TV"> 
-                <input type= "button" value="Фильмы" class="films" onclick="document.location='file:index_login.html'">
-			<input type= "button" value="Телеканалы" class="TV" onclick="document.location='file:index2_login.html'">
+                <a href="index_login.html"class="films">Фильмы</a>
+			<a href= "index2_login.html" class="TV">Телеканалы</a>
             </div>
             <main>
             <div class="blocki">

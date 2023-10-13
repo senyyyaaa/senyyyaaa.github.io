@@ -198,6 +198,7 @@ main{
 	justify-content: center;
 }
 .TV{
+    text-decoration: none; 
 	outline: none;
 	border:none;
 	background: none;
@@ -214,6 +215,7 @@ main{
     border-bottom: 1px Solid #E5261E;}
 
 .films{
+    text-decoration: none; 
 	outline: none;
 	border:none;
 	background: none;
@@ -229,6 +231,7 @@ main{
     color: #E5261E;
     border-bottom: 1px Solid #E5261E;}
 .new{
+  
     color: var(--Gray-1, #333);
     text-align: left;
     font-family: Rubik;

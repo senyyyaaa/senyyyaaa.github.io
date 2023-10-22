@@ -418,10 +418,11 @@ footer{
 }
 @media screen and (max-width: 390px){
 
-.container,
-
+.container{
+    max-width: 390px;
+}
 footer{
-    width: 390px;
+    max-width: 390px;
     margin: 5% 0 0 0;
     height: auto;
     font-size: 11px;
@@ -430,29 +431,34 @@ footer{
     margin: 0 0 0 0;
     flex-direction: column;
     height: auto;
-    width: 390px;
+    width: 100%;
     }
-    
 .search_form{
+    margin: 2% 0 0 0;
     display: flex;
-
     }
+.films_TV{
+    margin: 10% 0 0 0;
+}
 .filmi{
+    margin: 0 0 0 5%;
     display: flex;
     flex-direction: column;
     }
 .janrs{
     display: flex;
+    margin: 0 0 0 0;
+    justify-content: center;
     flex-direction: column;
     }
 main{
-    margin:0;
+    margin:0 0 0 0;
     display: flex;
     align-items: center;
     flex-direction: column;
     }
 #km,#dr,#in,#by{
-    margin-bottom: 16px;
+    margin: 5% 0 0 0;
     }
 .foot_text{
     font-size: 11px;
@@ -468,7 +474,7 @@ main{
     margin-bottom: 8px;
 }
 .blocki{
-    width: 390px;
+    max-width: 390px;
     font-size: 11px;
 }
 .perviy{
@@ -484,6 +490,7 @@ main{
     font-size: 12px;
 }
 .simple_text{
+    max-width: 390px;
     font-size: 12px;
     margin: 10px 0 0 0;
 }
